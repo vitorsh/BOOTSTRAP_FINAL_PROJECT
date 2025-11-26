@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/Share-TechMono.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/Exo2-Medium.otf') format('opentype')
+}
+
+body {
+    font-family: 'font2', sans-serif;
+    background-color: black;
+    }
+
+header .container h1 {
+    color: white;
+    text-decoration: underline 3px solid white;
+    font-family: 'font1';
+}
+
+header {
+    box-shadow: 0 15px 30px -10px #8000ff;
+    z-index: -10;
+    position: relative;
+    background-color: black;
+}
+
+.nav-link.active {
+  color: black !important;
+  background-color: white !important;
+}
+
+.nav-link{
+    color: white !important ;
+}
+
+.nav-link:hover{
+    color: black !important;
+    background-color: white;
+    transition: background-color 0.6s !important;
+}
+
+.carousel-item img {
+    width: 1366px;
+    max-width: 100%;
+    height: 768px;
+    max-height: 100%;
+    border-radius: 32px;
+    margin-top: 64px;
+}
+
+
+#line {
+    font-family: 'font1';
+    margin-top: 64px;
+    padding-top: 16px;
+    color: white;
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #8000ff;
+    z-index: -10;
+    position: relative;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+#about-us-text h1 {
+    font-family: 'font1';
+    display: flex;
+    justify-content: center;
+}
+
+#about-us-text p {
+    font-size: 22px;
+}
+
+#about-us-text h1, #about-us-text p {
+    color: white;
+}
+
+.row h2 {
+    color: white;
+}
+
+.row h2 span {
+    color:#8000ff;
+}
+
+.col-md-5 img {
+    width: 512px;
+    max-width: 100%;
+}
+#programs .col-md-10 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+#programs .col-md-10 p {
+    color: white;
+}
+
+#programs .col-md-10 h5, #social {
+    color:#8000ff;
+}
+
+.btn-custom {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  margin-bottom: 64px;
+}
+
+.btn-custom:hover {
+    background-color: #4d0099;
+    color: white;
+}
+
+label {
+    color: white;
+    margin-top: 16px;
+}
+
+#subm {
+    margin-top: 16px;
+    width: 128px;
+    height: 36px;
+}
+
+.bi-github {
+    color: white;
+}
+
+.social li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+#social-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::marker {
+    color: rgb(0, 0, 0, 0);
+}
+#bug {
+        font-size: 1px;
+    }
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    #title {
+        padding-top: 16px;
+    }
+    #line {
+        margin-top: 64px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 8px;
+    }
+    #bug {
+        font-size: 1px;
+    }
+    aside {
+        margin-bottom: 32px;
+    }
+
+}

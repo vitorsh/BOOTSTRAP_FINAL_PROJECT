@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiroshi Space Industries</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Text:ital@0;1&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#header" data-bs-offset="100">
+    <header class="navbar navbar-expand-lg sticky-top" id="header">
+        <div class="container">
+            <h1 id="title">Kiroshi Space Industries</h1>
+            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#menunav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menunav">
+                <ul class="nav nav-pills p-4 d-block d-md-flex">
+                    <li class="nav-item me-2">
+                        <a href="#photos" class="nav-link"><i class="bi bi-house-door-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#about-us" class="nav-link"><i class="bi bi-people-fill"></i> Our origin</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#programs" class="nav-link"><i class="bi bi-rocket-takeoff-fill"></i> Space Programs</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#journey" class="nav-link"><i class="bi bi-briefcase-fill"></i> Book Your Journey</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+            <section id="photos">
+                <div class="container">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="images/carousel/moon.jpg" alt="moon">
+                            </div>
+                            
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/carousel/moon-base-7279488_1920.jpg" alt="moon base">
+                            </div>
+                            
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/carousel/mars.jpg" alt="mars">
+                            </div>
+                            
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/carousel/titan.jpg" alt="titan">
+                            </div>
+                            
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+    <section id="line">
+        <h2><p>"Leave gravity behind. Your destiny lies among the stars."</p></h2>
+    </section>
+
+    <div id="about-us" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="about-img">
+                        <img src="images/ABOUT-US-IMG.jpg" class="d-block w-100 rounded" alt="">
+                    </div>
+                    <div class="col-md-6" id="about-us-text">
+                        <h1>
+                            How we work
+                        </h1>
+                        <p>From Earth to orbit, ascend aboard sky-piercing elevators — marvels of engineering that rise like spires into the heavens. Step into vessels crafted with opulence, where every surface reflects the stars and every corridor whispers of the cosmos. As the planet falls away beneath you, time slows, and wonder deepens. This is not just travel — it is transcendence. Every moment, from lift-off to lunar light, is shaped to feel inevitable. Designed to be destiny.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="line">
+        <h2><p>"Touch the void. Embrace the inf<span id="bug"> </span>inity."</p></h2>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">OUR  <span>PROGRAMS</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#moon" class="nav-link active">Journeys to the Moon</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mars" class="nav-link ">Journeys to Mars</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#titan" class="nav-link ">Journeys to Titan</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#earth" class="nav-link ">Journeys around our own planet</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="moon">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/MOON-TRIP/IMG1.jpg" alt=""/>
+                                    <h5 class="fw-bold">PRIVATE RESORT</h5>
+                                    <p class="p-book">Discover the first luxury lunar resort, where Earthrise is your daily view. Experience exclusive adventures in low gravity with interstellar comfort.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/MOON-TRIP/IMG2.jpg" alt=""/>
+                                    <h5 class="fw-bold">UNDERGROUND RESORT</h5>
+                                    <p class="p-book">Hidden beneath the lunar surface, our underground resort offers unmatched privacy, safety, and serenity — a true oasis carved into the Moon.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/MOON-TRIP/IMG3.jpeg" alt=""/>
+                                    <h5 class="fw-bold">LUNAR MALL</h5>
+                                    <p class="p-book">HExperience the Moon’s first surface shopping center — where cutting-edge fashion meets cosmic views under the stars.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/MOON-TRIP/IMG4.jpg" alt=""/>
+                                    <h5 class="fw-bold">UNDERGROUND RESORT</h5>
+                                    <p class="p-book">Welcome to the Moon’s first city — a pioneering community blending cutting-edge technology and cosmic living to redefine humanity’s future beyond Earth.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                </div>
+                                </div>
+
+
+                        <div class="tab-pane" id="mars">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/mars/IMG1.png" alt=""/>
+                                    <h5 class="fw-bold">PRIVATE RESORT</h5>
+                                    <p class="p-book">Discover the first luxury lunar resort, where Earthrise is your daily view. Experience exclusive adventures in low gravity with interstellar comfort.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/mars/IMG2.jpg" alt=""/>
+                                    <h5 class="fw-bold">UNDERGROUND RESORT</h5>
+                                    <p class="p-book">Hidden beneath the lunar surface, our underground resort offers unmatched privacy, safety, and serenity — a true oasis carved into the Moon.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/mars/IMG3.jpg" alt=""/>
+                                    <h5 class="fw-bold">HIGH TECHNOLOGY</h5>
+                                    <p class="p-book">HExperience the Moon’s first surface shopping center — where cutting-edge fashion meets cosmic views under the stars.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/mars/IMG4.jpg" alt=""/>
+                                    <h5 class="fw-bold">RESORT ON A SATELLITE</h5>
+                                    <p class="p-book">Welcome to the Moon’s first city — a pioneering community blending cutting-edge technology and cosmic living to redefine humanity’s future beyond Earth.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                            </div>
+                            </div>
+
+
+                        <div class="tab-pane" id="titan">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Titan/IMG1.jpg" alt=""/>
+                                    <h5 class="fw-bold">PRIVATE RESORT</h5>
+                                    <p class="p-book">Discover the first luxury lunar resort, where Earthrise is your daily view. Experience exclusive adventures in low gravity with interstellar comfort.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Titan/IMG2.jpg" alt=""/>
+                                    <h5 class="fw-bold">UNDERGROUND RESORT</h5>
+                                    <p class="p-book">Hidden beneath the lunar surface, our underground resort offers unmatched privacy, safety, and serenity — a true oasis carved into the Moon.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Titan/IMG3.jpg" alt=""/>
+                                    <h5 class="fw-bold">LUNAR MALL</h5>
+                                    <p class="p-book">HExperience the Moon’s first surface shopping center — where cutting-edge fashion meets cosmic views under the stars.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Titan/IMG4.jpg" alt=""/>
+                                    <h5 class="fw-bold">UNDERGROUND RESORT</h5>
+                                    <p class="p-book">Welcome to the Moon’s first city — a pioneering community blending cutting-edge technology and cosmic living to redefine humanity’s future beyond Earth.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                </div>
+                                </div>
+
+
+                        <div class="tab-pane" id="earth">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Earth/IMG1.jpeg" alt=""/>
+                                    <h5 class="fw-bold">Balneario Camburiu</h5>
+                                    <p class="p-book">Discover the first luxury lunar resort, where Earthrise is your daily view. Experience exclusive adventures in low gravity with interstellar comfort.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Earth/IMG2.png" alt=""/>
+                                    <h5 class="fw-bold">Burj Khalifa</h5>
+                                    <p class="p-book">Hidden beneath the lunar surface, our underground resort offers unmatched privacy, safety, and serenity — a true oasis carved into the Moon.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Earth/IMG3.jpg" alt=""/>
+                                    <h5 class="fw-bold">Temples on Japan</h5>
+                                    <p class="p-book">HExperience the Moon’s first surface shopping center — where cutting-edge fashion meets cosmic views under the stars.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/Earth/IMG4.png" alt=""/>
+                                    <h5 class="fw-bold">Portugal</Portal></h5>
+                                    <p class="p-book">Welcome to the Moon’s first city — a pioneering community blending cutting-edge technology and cosmic living to redefine humanity’s future beyond Earth.</p>
+                                    <button type="button" class="btn btn-custom">Book your next Journey <span>NOW</span></button>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="line">
+        <h2><p>"The cosmos whispers secrets to those who dare."</p></h2>
+    </section>
+
+    <section id="journey">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Book Your <span>Journey</span></h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" clas="form-label">Name</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" clas="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="celular" clas="form-label">Telephone number</label>
+                                <input type="tel" id="celular" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="nome" clas="form-label">Message</label>
+                                <textarea id="msn" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom" id="subm">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row" id="social-center">
+                            <h3 class="section-title">
+                                <span id="social">Social</span>
+                            </h3>
+                            <ul class="social">
+                                <li class="fs-1">
+                                    <a href="https://github.com/Guillerme00">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</html>
